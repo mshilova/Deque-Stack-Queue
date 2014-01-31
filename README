@@ -1,0 +1,21 @@
+Implemention of a Double-ended Queue (Deque) using a circular array with
+a fixed capacity. The Adapter pattern is used to implement a Stack and Queue
+using the Deque implementation.
+
+To partially test the implementation, use Queue12 and Stack12 classes to help 
+solve a maze. 
+
+Type the following: 
+
+            java -jar MazeMaker12.jar
+
+"It will pop up a window showing a grid of cells. Click on "Create" to knock 
+down some walls of the cells to make a maze. Now there are two ways to discover 
+paths in this maze: Depth First Search (DFS) and Breadth First Search (BFS).
+As you will see, these two strategies explore the maze in very different ways.
+However, the only difference between the two algorithms is what data structure
+each uses to to keep track of cells in the maze that it has visited in its search 
+(DFS uses a stack, BFS uses a queue). Click on "BFS" or "DFS", and select a 
+starting point, to initiate a breadth-first or depth-first search of the maze.
+During the search, the blue dots are the maze cells that are stored on the stack
+or queue during each step in the search." 
